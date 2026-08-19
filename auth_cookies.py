@@ -16,7 +16,8 @@ class AuthCookies:
         self.proxy_url = <"словарь{‘http’: ‘foo.bar:3128’, ‘http://host.name’: ‘foo.bar:4012’}, если proxy_url нет - ''">
         self.directory = <"адрес директории для хранения cookies">
         self.filename = <'название файла с cookies'>
-        self.max_retries = <'число повторныз попыток авторизации'>
+        # максимальное число повторныз попыток авторизации
+        self.max_retries = 3
         # задежка между повторными подключениями
         self.retry_delay = 1
         self.pasport = None
