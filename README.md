@@ -21,7 +21,7 @@ self.password_web = 'password'
 self.proxy_url = ''
 # Укажите директорию для хранения cookie-файла
 self.directory = <"адрес директории для хранения cookie">
-# Укажите имя cookie-файла
+# Укажите имя cookie-файла без расширения
 self.filename = <'название файла с cookies'>
 # Максимальное число повторных попыток авторизации - можно изменить
 self.max_retries = 3
